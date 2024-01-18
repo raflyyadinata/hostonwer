@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:hostonwer/home.dart';
@@ -18,7 +17,7 @@ class NavBarr extends StatefulWidget {
 class _NavBarState extends State<NavBarr> {
   int _currentIndex = 0;
   List<Widget> pages = const [
-   Home(),
+   HomePage(),
    NewProduct(),
    Notif(),
    Me(),
